@@ -1,5 +1,5 @@
 {
-  "name": "fortran-sample",
+  "name": "pyspedas-devcontainer",
   "image": "mcr.microsoft.com/devcontainers/python:3.10",
   "hostRequirements": {
     "cpus": 2
@@ -13,9 +13,11 @@
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",
-        "ms-python.python",
-        "fortran-lang.linter-gfortran",
+        "ms-python.python"
       ]
     }
+  },
+  "remoteEnv": {
+    "SPEDAS_DATA_DIR" : "/home/vscode/spedas_data"
   }
 }
