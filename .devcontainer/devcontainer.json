@@ -1,0 +1,21 @@
+{
+  "name": "fortran-sample",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "waitFor": "onCreateCommand",
+  "postCreateCommand": "/bin/bash .devcontainer/install.sh",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+    },
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "fortran-lang.linter-gfortran",
+      ]
+    }
+  }
+}
