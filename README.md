@@ -12,7 +12,10 @@ You can click on "Code" and select "Codespaces" tab, and then go to "Create code
 <img src="https://github.com/amanotk/pyspedas-devcontainer/assets/46679145/0433f33d-e337-4afb-8871-05c9a4afed99" width="400px">
 </div>
 
-After a while, VSCode will launch on the web browser. Now you can do whatever you want on a jupyter notebook.
+After a while, VSCode will launch on the web browser.  
+Now you can do whatever you want on a jupyter notebook as shown in the screenshot below.
+
+![image](https://github.com/amanotk/pyspedas-devcontainer/assets/46679145/7985b045-181f-4b46-a246-9999844011ad)
 
 ## Samples
 Currently, `sample` directory contains examples for ERG and MMS.
