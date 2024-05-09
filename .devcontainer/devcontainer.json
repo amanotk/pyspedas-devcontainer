@@ -5,7 +5,8 @@
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "postCreateCommand": "/bin/bash .devcontainer/install.sh",
+  "onCreateCommand": "sudo /bin/bash .devcontainer/onCreateCommand.sh",
+  "postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh",
   "customizations": {
     "codespaces": {
       "openFiles": []
