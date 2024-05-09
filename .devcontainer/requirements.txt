@@ -1,4 +1,5 @@
 pyspedas==1.5.12
+black
 ipywidgets
 matplotlib
 numpy
