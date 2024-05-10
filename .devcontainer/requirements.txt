@@ -1,4 +1,4 @@
-pyspedas==1.5.12
+pyspedas
 black
 ipywidgets
 matplotlib
